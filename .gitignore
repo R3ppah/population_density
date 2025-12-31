@@ -1,0 +1,7 @@
+Data/
+
+# R 环境文件
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
