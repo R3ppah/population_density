@@ -13,8 +13,8 @@ The analysis and visualization in this project rely on the following key dataset
 ## 🚀 Usage Instructions
 To replicate the visualization, follow these steps in order:
 
-1.  **Data Preparation**: First, run the R script with the `_cut` suffix (e.g., `cut_data.R`). This script clips the global population dataset to your specific area of interest (e.g., a city or region) and saves the subset locally in the `/Data` folder.
-2.  **Visualization**: Then, run the R script with the `_draw` suffix (e.g., `draw_plot.R`). This script reads the clipped data from `/Data` and generates the 3D population density map using `rayshader`.
+1.  **Data Preparation**: First, run the R script with the `_cut` suffix (e.g., `chongqing_cut.R`). This script clips the global population dataset to your specific area of interest (e.g., a city or region) and saves the subset locally in the `/Data` folder.
+2.  **Visualization**: Then, run the R script with the `_draw` suffix (e.g., `chongqing_draw.R`). This script reads the clipped data from `/Data` and generates the 3D population density map using `rayshader`.
 
 > **Note**: Ensure the required data files are in the `/Data` folder before running the scripts.
 
